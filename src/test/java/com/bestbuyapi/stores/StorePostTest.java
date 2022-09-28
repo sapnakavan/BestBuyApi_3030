@@ -12,8 +12,8 @@ public class StorePostTest extends TestBase {
     public void createnewstore(){
         StorePojo storePojo = new StorePojo();
 
-        storePojo.setName("Tedbaker");
-        storePojo.setType("Clothing");
+        storePojo.setName("Tedbaker1");
+        storePojo.setType("Clothing2");
         storePojo.setAddress("22 Drive Court");
         storePojo.setAdd2("edgware");
         storePojo.setCity("Mopkins");
