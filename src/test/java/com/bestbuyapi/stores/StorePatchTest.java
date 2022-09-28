@@ -20,7 +20,7 @@ public class StorePatchTest extends TestBase {
         Response response = given()
                 .basePath("/stores")
                 .header("Content-Type","application/json")
-                .pathParam("id","9999712")
+                .pathParam("id","6")
                 .body(storePojo)
                 .when()
                 .patch("/{id}");
